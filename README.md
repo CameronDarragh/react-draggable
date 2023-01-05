@@ -334,7 +334,8 @@ on itself and thus must have callbacks attached to be useful.
   onDrag: DraggableEventHandler,
   onStop: DraggableEventHandler,
   onMouseDown: (e: MouseEvent) => void,
-  scale: number
+  scale: number,
+  keepTouchEvents: boolean
 }
 ```
 
